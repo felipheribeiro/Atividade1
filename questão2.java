@@ -12,13 +12,13 @@ public Medico {
         System.out.println("Especialidade: " + med1.especialidade);
         System.out.println("\nEndereco:\n"+med1.getEndereco());
 
+        ende.rua = "Rua das Flores";
         ende.numero = "295";
-        ende.cep = "48800000";
-        ende.rua = "Rua Das Flores";
         ende.complemento = "Ao lado da Igreja";
         ende.bairro = "Centro";
         ende.cidade = "Monte Santo";
         ende.uf = "BA";
+        ende.cep = "48800000";
 
         med02.codigo = 02;
         med02.nome = "Evanice de Souza Silva";
